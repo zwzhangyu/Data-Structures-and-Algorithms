@@ -1,6 +1,4 @@
-package $2两数相加;
-
-import java.util.List;
+package leetcode.$2两数相加;
 
 /**
  * @Author zhangyu
@@ -44,8 +42,6 @@ public class Solution {
      * (2 -> 4 -> 3) + (5 -> 6 -> 4)
      * 输出：7 -> 0 -> 8
      * 原因：342 + 465 = 807
-     *
-     * @param args
      */
     public static void main(String[] args) {
         ListNode p1 = new ListNode(2);

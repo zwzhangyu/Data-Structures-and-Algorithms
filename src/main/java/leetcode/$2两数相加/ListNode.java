@@ -1,4 +1,4 @@
-package $2两数相加;
+package leetcode.$2两数相加;
 
 /**
  * @Author zhangyu
