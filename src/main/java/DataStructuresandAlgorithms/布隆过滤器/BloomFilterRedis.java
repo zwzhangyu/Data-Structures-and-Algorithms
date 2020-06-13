@@ -46,12 +46,15 @@ public class BloomFilterRedis {
     private static long[] getIndexs(String key) {
         long hash1 = hash(key);
         long hash2 = hash1 >>> 16;
+        //构建哈希函数数量大小的数组，单个数据插入到BitMap多个位置
         long[] result = new long[numHashFunctions];
         for (int i = 0; i < numHashFunctions; i++) {
             long combinedHash = hash1 + i * hash2;
             if (combinedHash < 0) {
+                //取反运算
                 combinedHash = ~combinedHash;
             }
+            //取模运算到BitMap位置中
             result[i] = combinedHash % numBits;
         }
         return result;
@@ -103,6 +106,7 @@ public class BloomFilterRedis {
         for (int i = 0; i < 100; i++) {
             long[] indexs = getIndexs(String.valueOf(i));
             for (long index : indexs) {
+                //将当前数据匹配的哈希位置设值到Redis库中
                 jedis.setbit("felix:bloom", index, true);
             }
         }
