@@ -1,4 +1,4 @@
-package leetcode.$7整数反转;
+package leetcode.$7_reverse;
 
 
 /**

@@ -1,4 +1,4 @@
-package leetcode.$1两数之和;
+package leetcode.$1_twoSum;
 
 import java.util.Arrays;
 import java.util.HashMap;

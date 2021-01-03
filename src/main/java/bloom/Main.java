@@ -1,3 +1,5 @@
+package bloom;
+
 /**
  * @Author zhangyu
  * @Date 2020/6/7
@@ -6,10 +8,10 @@
 
 public class Main {
 
-      public static void main(String[] args){
-          long l = WorkerID.nextId();
-          System.out.println(l);
-      }
+    public static void main(String[] args) {
+        long l = WorkerID.nextId();
+        System.out.println(l);
+    }
 }
 
 

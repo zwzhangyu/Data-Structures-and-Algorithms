@@ -1,4 +1,4 @@
-package DataStructuresandAlgorithms.布隆过滤器;
+package bloom;
 
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;

@@ -1,4 +1,4 @@
-package leetcode.$1202交换字符串中的元素;
+package leetcode.$1202_smallestStringWithSwaps;
 
 import java.util.*;
 
