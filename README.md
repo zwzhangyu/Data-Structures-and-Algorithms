@@ -7,32 +7,28 @@
 - https://www.nowcoder.com/ 牛客网
 
 ## array 数组
+
 - #### [两数之和](src/main/java/array/two_sum/Solution1.java)
-
-
 
 ## linked_list 链表
 
+- #### [两数相加](linked_list/add_two_numbers/Solution.java)
+
 ## hash 哈希表&哈希函数
+
+- #### [卡牌数组](src/main/java/hash/x_of_a_kind_in_a_deck_of_cards/Solution.java)
+- #### [布隆过滤器算法实现](src/main/java/hash/bloom_filter)
 
 ## recursion 递归
 
 ## search 搜索类
 
+- #### [交换字符串中的元素](src/main/java/search/smallest_string_with_swaps/Solution.java)
+
 ## string 字符串
 
-##### [$1_twoSum                        [1]两数之和](/src/main/java/leetcode/$1_twoSum)
+- #### [有效的字母异位词](src/main/java/string/valid_anagram/Solution.java)
 
-##### [$2_addTwoNumbers                 [2]两数相加](/src/main/java/leetcode/$2_addTwoNumbers)
+## math 数学
 
-##### [$7_reverse                      [7]整数反转](/src/main/java/leetcode/$7_reverse)
-
-##### [$242_ValidAnagram              [242]有效的字母异位词](/src/main/java/leetcode/$242_ValidAnagram)
-
-##### [$1202_smallestStringWithSwaps              [1202]交换字符串中的元素](/src/main/java/leetcode/$1202_smallestStringWithSwaps)
-
-##### [$914_XofaKindInADeckOfCards              [914]卡牌数组](/src/main/java/leetcode/$914_XofaKindInADeckOfCards)
-
-# hash.bloom_filter 布隆过滤器算法实现
-
-##### 布隆过滤器算法实现  
+- #### [整数反转](src/main/java/math/reverse/Solution.java)
