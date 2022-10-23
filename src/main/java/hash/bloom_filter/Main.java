@@ -1,4 +1,4 @@
-package bloom;
+package hash.bloom_filter;
 
 /**
  * @Author zhangyu

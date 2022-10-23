@@ -1,10 +1,10 @@
-package leetcode.$7_reverse;
+package math.reverse;
 
 
 /**
  * @Author zhangyu
  * @Date 2020/6/13
- * @Description 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+ * @Description 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。 leetcode 7. Reverse Integer
  * <p>
  * 示例 1:
  * <p>

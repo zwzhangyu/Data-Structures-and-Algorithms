@@ -1,8 +1,13 @@
-package leetcode.$914_XofaKindInADeckOfCards;
+package hash.x_of_a_kind_in_a_deck_of_cards;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * leetcode 914. X of a Kind in a Deck of Cards
+ * @author zhangyu
+ * @date 2022/10/23
+ **/
 public class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         //计数统计

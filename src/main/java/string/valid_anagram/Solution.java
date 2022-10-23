@@ -1,6 +1,8 @@
-package leetcode.$242_ValidAnagram;
+package string.valid_anagram;
 
 /**
+ * leetcode 242. Valid Anagram
+ *
  * Given two strings s and t , write a function to determine if t is an anagram of s.
  * <p>
  * Example 1:

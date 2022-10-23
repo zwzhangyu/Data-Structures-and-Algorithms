@@ -1,4 +1,4 @@
-package bloom;
+package hash.bloom_filter;
 
 import com.google.common.hash.Funnels;
 import com.google.common.hash.Hashing;
@@ -107,13 +107,13 @@ public class BloomFilterRedis {
             long[] indexs = getIndexs(String.valueOf(i));
             for (long index : indexs) {
                 //将当前数据匹配的哈希位置设值到Redis库中
-                jedis.setbit("felix:bloom", index, true);
+                jedis.setbit("felix:hash_table.bloom", index, true);
             }
         }
         for (int i = 0; i < 100; i++) {
             long[] indexs = getIndexs(String.valueOf(i));
             for (long index : indexs) {
-                Boolean isContain = jedis.getbit("felix:bloom", index);
+                Boolean isContain = jedis.getbit("felix:hash_table.bloom", index);
                 if (!isContain) {
                     System.out.println(i + "肯定没有重复");
                 }

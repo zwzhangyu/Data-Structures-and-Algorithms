@@ -1,9 +1,9 @@
-package leetcode.$2_addTwoNumbers;
+package linked_list.add_two_numbers;
 
 /**
  * @Author zhangyu
  * @Date 2020/6/6
- * @Description
+ * @Description leetcode 2. Add Two Numbers
  **/
 public class Solution {
 

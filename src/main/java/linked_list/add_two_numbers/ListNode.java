@@ -1,4 +1,4 @@
-package leetcode.$2_addTwoNumbers;
+package linked_list.add_two_numbers;
 
 /**
  * @Author zhangyu

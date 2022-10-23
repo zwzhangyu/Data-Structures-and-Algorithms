@@ -1,4 +1,4 @@
-package leetcode.$1202_smallestStringWithSwaps;
+package search.smallest_string_with_swaps;
 
 import java.util.*;
 

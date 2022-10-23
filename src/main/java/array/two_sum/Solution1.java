@@ -1,4 +1,4 @@
-package leetcode.$1_twoSum;
+package array.two_sum;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * 直接在数组上进行求解，双指针，一个从前往后，一个从后往前，O(n)
+ * <p>
+ * leetcode 1. Two Sum
  **/
 public class Solution1 {
 
