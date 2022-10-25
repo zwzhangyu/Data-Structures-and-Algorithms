@@ -12,7 +12,7 @@
 
 ## linked_list 链表
 
-- #### [链表数据生成工厂，生成测试数据](linked_list/common/ListNodeFactory)
+- #### [链表数据生成工厂，生成测试数据](linked_list/common/ListNodeFactory.java)
 - #### [两数相加](linked_list/add_two_numbers/Solution.java)
 - #### [链表中倒数第k个结点](linked_list/k_th_from_end/Solution.java)
 
