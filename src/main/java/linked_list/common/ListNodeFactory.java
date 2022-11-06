@@ -9,7 +9,6 @@ package linked_list.common;
  **/
 public class ListNodeFactory {
 
-
     /**
      * 根据输入int可变参数生成链表结构
      */
@@ -21,6 +20,16 @@ public class ListNodeFactory {
             listNode = listNode.next;
         }
         return head;
+    }
+
+
+    public static void print(ListNode listNode) {
+        System.out.println("------------------------------");
+        while (listNode != null) {
+            System.out.print(listNode.val+"-->");
+            listNode = listNode.next;
+        }
+        System.out.println("\n------------------------------");
     }
 
 
