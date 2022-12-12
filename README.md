@@ -33,13 +33,16 @@
 
 - #### [有效的字母异位词](src/main/java/string/valid_anagram/Solution.java)
 
-## math 数学
-
-- #### [整数反转](src/main/java/math/reverse/Solution.java)
-
 ## tree 树相关
 
 - #### [使用递归方法实现二叉树](src/main/java/tree/traverse_recursion_tree)
-- #### [使用通用方法和 ArrayList 创建树](src/main/java/tree/generic_arraylist)  
+- #### [使用通用方法和 ArrayList 创建树](src/main/java/tree/generic_arraylist)
 
+## queue 队列
 
+- #### [fifo先入先出队列](src/main/java/queue/fifo)
+- #### [优先级队列](src/main/java/queue/priority_queue)
+
+## math 数学
+
+- #### [整数反转](src/main/java/math/reverse/Solution.java)

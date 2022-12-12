@@ -1,14 +1,11 @@
 package tree.traverse_recursion_tree;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * 使用递归方法实现二叉树
  *
  * @author zhangyu
  * @date 2022/12/11
  **/
-@Slf4j
 public class JavaTree {
 
     private Node root;
