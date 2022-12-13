@@ -43,6 +43,10 @@
 - #### [fifo先入先出队列](src/main/java/queue/fifo)
 - #### [优先级队列](src/main/java/queue/priority_queue)
 
+## stack 堆栈
+
+- #### [使用ArrayList实现栈数据结构](src/main/java/stack/stack_arraylist)
+
 ## math 数学
 
 - #### [整数反转](src/main/java/math/reverse/Solution.java)
