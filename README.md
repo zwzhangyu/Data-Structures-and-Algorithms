@@ -33,6 +33,9 @@
 
 - #### [有效的字母异位词](src/main/java/string/valid_anagram/Solution.java)
 
+- #### [无重复字符的最长子串](src/main/java/string/longest_substring/Solution.java)
+` [哈希表] [字符串] [滑动窗口] `
+
 ## tree 树相关
 
 - #### [使用递归方法实现二叉树](src/main/java/tree/traverse_recursion_tree)
