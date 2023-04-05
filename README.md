@@ -9,6 +9,7 @@
 ## array 数组
 
 - #### [两数之和](src/main/java/array/two_sum/Solution1.java)
+- #### [寻找两个正序数组的中位数](src/main/java/array/median_of_two_sorted_arrays/Solution.java)
 
 ## linked_list 链表
 
