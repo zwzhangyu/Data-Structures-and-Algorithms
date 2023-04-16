@@ -33,9 +33,16 @@
 ## string 字符串
 
 - #### [有效的字母异位词](src/main/java/string/valid_anagram/Solution.java)
-
 - #### [无重复字符的最长子串](src/main/java/string/longest_substring/Solution.java)
 ` [哈希表] [字符串] [滑动窗口] `
+- #### [最长回文子串](src/main/java/string/longest_palindromic_substring)
+` [字符串] [动态规划]`
+
+## dp 动态规划
+
+- #### [最长回文子串](src/main/java/string/longest_palindromic_substring)
+` [字符串] [动态规划]`
+
 
 ## tree 树相关
 
